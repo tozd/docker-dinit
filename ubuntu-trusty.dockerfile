@@ -6,7 +6,7 @@ RUN apt-get update -q -q && \
   chmod +x /dinit && \
   wget -O /usr/local/bin/regex2json https://gitlab.com/tozd/regex2json/-/releases/v0.2.0/downloads/linux-amd64/regex2json && \
   chmod +x /usr/local/bin/regex2json && \
-  apt-get purge --yes --force-yes --auto-remove wget ca-certificates && \
+  apt-get purge --yes --force-yes --auto-remove wget && \
   apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* ~/.cache ~/.npm
 
 ENTRYPOINT ["/dinit"]
