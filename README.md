@@ -28,11 +28,10 @@ Available as:
 
 An image using [dinit](https://gitlab.com/tozd/dinit) for service supervision.
 
-It has also [runit](http://smarden.org/runit/) binaries installed
-(e.g., you can use `svlogd` to store service's stdout into a log file and rotate it).
-
 It includes also [regex2json](https://gitlab.com/tozd/regex2json) binary to make it
-easier to transform non-JSON output to JSON.
+easier to transform non-JSON output to JSON. It has also [runit](http://smarden.org/runit/)
+binaries installed (e.g., you can use `svlogd` to store service's stdout into a log file
+and rotate it).
 
 It can serve as a good base image for other Docker images.
 
