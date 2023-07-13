@@ -37,7 +37,7 @@ It can serve as a good base image for other Docker images.
 
 It sets Docker image entrypoint so dinit is run automatically.
 
-By default it expects that all programs/services it manages output to their stdout
+By default dinit expects that all programs/services it manages output to their stdout
 logging in JSON while stderr can be unstructured. dinit then multiplexes output from
 all programs/services to container's stdout and stderr. dinit outputs own
 errors to container's stderr, too. In Docker, by default, container's stdout and
