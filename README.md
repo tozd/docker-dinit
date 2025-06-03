@@ -13,16 +13,16 @@ Available as:
 
 ## Tags
 
-- `ubuntu-trusty`: dinit 0.2.0
-- `ubuntu-xenial`: dinit 0.2.0
-- `ubuntu-bionic`: dinit 0.2.0
-- `ubuntu-focal`: dinit 0.2.0
-- `ubuntu-jammy`: dinit 0.2.0
-- `alpine-38`: dinit 0.2.0
-- `alpine-310`: dinit 0.2.0
-- `alpine-312`: dinit 0.2.0
-- `alpine-314`: dinit 0.2.0
-- `alpine-316`: dinit 0.2.0
+- `ubuntu-trusty`: dinit 0.3.0
+- `ubuntu-xenial`: dinit 0.3.0
+- `ubuntu-bionic`: dinit 0.3.0
+- `ubuntu-focal`: dinit 0.3.0
+- `ubuntu-jammy`: dinit 0.3.0
+- `alpine-38`: dinit 0.3.0
+- `alpine-310`: dinit 0.3.0
+- `alpine-312`: dinit 0.3.0
+- `alpine-314`: dinit 0.3.0
+- `alpine-316`: dinit 0.3.0
 
 ## Description
 
