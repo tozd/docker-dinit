@@ -18,11 +18,15 @@ Available as:
 - `ubuntu-bionic`: dinit 0.3.0
 - `ubuntu-focal`: dinit 0.3.0
 - `ubuntu-jammy`: dinit 0.3.0
+- `ubuntu-noble`: dinit 0.3.0
 - `alpine-38`: dinit 0.3.0
 - `alpine-310`: dinit 0.3.0
 - `alpine-312`: dinit 0.3.0
 - `alpine-314`: dinit 0.3.0
 - `alpine-316`: dinit 0.3.0
+- `alpine-318`: dinit 0.3.0
+- `alpine-320`: dinit 0.3.0
+- `alpine-322`: dinit 0.3.0
 
 ## Description
 
