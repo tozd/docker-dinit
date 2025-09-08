@@ -1,5 +1,7 @@
 FROM registry.gitlab.com/tozd/docker/base:ubuntu-noble
 
+ARG TARGETARCH=amd64
+
 RUN apt-get update -q -q && \
   apt-get install --yes --force-yes runit wget ca-certificates && \
   wget -O /dinit https://gitlab.com/tozd/dinit/-/releases/v0.3.0/downloads/linux-${TARGETARCH}/dinit && \

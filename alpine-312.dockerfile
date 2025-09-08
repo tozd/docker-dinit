@@ -1,5 +1,7 @@
 FROM registry.gitlab.com/tozd/docker/base:alpine-312
 
+ARG TARGETARCH=amd64
+
 RUN apk add --no-cache runit tzdata && \
   wget -O /dinit https://gitlab.com/tozd/dinit/-/releases/v0.3.0/downloads/linux-${TARGETARCH}/dinit && \
   chmod +x /dinit && \
