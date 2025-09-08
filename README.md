@@ -28,6 +28,11 @@ Available as:
 - `alpine-320`: dinit 0.3.0
 - `alpine-322`: dinit 0.3.0
 
+## Architectures
+
+- `amd64`
+- `arm64`
+
 ## Description
 
 An image using [dinit](https://gitlab.com/tozd/dinit) for service supervision.
