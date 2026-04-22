@@ -19,6 +19,7 @@ Available as:
 - `ubuntu-focal`: dinit 0.4.0
 - `ubuntu-jammy`: dinit 0.4.0
 - `ubuntu-noble`: dinit 0.4.0
+- `ubuntu-resolute`: dinit 0.4.0
 - `alpine-38`: dinit 0.4.0
 - `alpine-310`: dinit 0.4.0
 - `alpine-312`: dinit 0.4.0
