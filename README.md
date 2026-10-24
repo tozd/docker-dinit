@@ -56,6 +56,10 @@ stderr are retrievable using `docker logs`.
 In short, to create a service create `/etc/service/<name>/run` script which at the end
 `exec`s into the service executable you want to run (and supervise to keep running).
 
+`/etc/service` is a directory, so you can copy a whole `etc` directory into an extending image.
+On Ubuntu the `runit` package installs `/etc/service` as a symlink, which the image replaces with a directory.
+Because of that, reinstalling or upgrading the `runit` package in an extending image can fail.
+
 ## GitHub mirror
 
 There is also a [read-only GitHub mirror available](https://github.com/tozd/docker-dinit),
